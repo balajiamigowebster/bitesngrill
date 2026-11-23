@@ -539,14 +539,21 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row gap-6 justify-center mb-14 md:px-4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.4769199087004!2d72.83800047444353!3d19.0427577530168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c92e17100001%3A0x8ba96c0925b39f32!2sSt.%20Michael&#39;s%20Church%2C%20Mahim!5e0!3m2!1sen!2sin!4v1758801351182!5m2!1sen!2sin"
-            className="w-full md:w-1/2 h-72 border-0 rounded shadow"
+            className="w-full md:w-1/3 h-72 border-0 rounded shadow"
             allowFullScreen=""
             loading="lazy"
           ></iframe>
 
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7541.945576469112!2d72.881287!3d19.064934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9bf40c4ed19%3A0xa25d3b05259a616c!2sBites&#39;%20n%20Grill!5e0!3m2!1sen!2sin!4v1758801464198!5m2!1sen!2sin"
-            className="w-full md:w-1/2 h-72 border-0 rounded shadow"
+            className="w-full md:w-1/3 h-72 border-0 rounded shadow"
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.43222382839!2d72.8980302!3d19.057120700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c997517e1c97%3A0x3a3a6828e6839f47!2sBites%20n%20Grill!5e1!3m2!1sen!2sin!4v1782830605310!5m2!1sen!2sin"
+            className="w-full md:w-1/3 h-72 border-0 rounded shadow"
             allowFullScreen=""
             loading="lazy"
           ></iframe>
@@ -596,6 +603,24 @@ const Hero = () => {
               <span className="font-bold">Shop No: 25</span>, 3rd Floor, East
               Point Mall, SG Barve Marg, opposite Kurla West Station Road,
               Jagruti Nagar, East, Kurla, Mumbai, Maharashtra 400024
+            </p>
+          </a>
+
+          {/* Chembur */}
+          <a
+            href="https://maps.app.goo.gl/vCrTKzGvw4Y5Dxfv9"
+            target="_blank"
+            className="border border-yellow-400 flex flex-col justify-center items-center p-6 rounded  shadow-2xl transition"
+          >
+            <h3 className="text-3xl font-bold mb-3 text-center">Chembur</h3>
+            <img
+              src="/address/a1.png"
+              alt="location"
+              className="w-[70px] h-[70px] md:w-[80px] md:h-[80px]"
+            />
+            <p className="text-center text-[18px] py-5">
+              <span className="font-bold">Chembur: </span>At Occassion Cake Shop
+              OPP Post office Chembur east Nr Sandu Garden Mumbai -400071
             </p>
           </a>
 

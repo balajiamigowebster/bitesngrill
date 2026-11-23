@@ -16,6 +16,7 @@ import BlogEdit from "./component/Dashboard/BlogEdit";
 import BlogDetail from "./component/Dashboard/BlogDetail";
 import FranchiseForm from "./component/FranchiseForm";
 
+
 const App = () => {
   const location = useLocation();
 

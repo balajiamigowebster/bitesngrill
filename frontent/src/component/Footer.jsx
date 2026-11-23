@@ -26,14 +26,14 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#F0BC04] text-black px-6 md:px-10  py-10">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-8 max-w-7xl mx-auto">
         {/* Address */}
         <div>
           <div className="font-bold text-lg mb-3 flex items-center gap-2">
             <span>
               <SlLocationPin className="" size={20} />
             </span>
-            Address
+            Address - 1
           </div>
           <div>
             {" "}
@@ -44,6 +44,25 @@ export default function Footer() {
               Shop No: 25, 3rd Floor, East Point Mall, SG Barve Marg, opposite
               Kurla West Station Road, Jagruti Nagar, East, Kurla, Mumbai,
               Maharashtra 400024
+            </p>
+          </div>
+        </div>
+
+        {/* Address - 2 */}
+        <div>
+          <div className="font-bold text-lg mb-3 flex items-center gap-2">
+            <span>
+              <SlLocationPin className="" size={20} />
+            </span>
+            Address - 2
+          </div>
+          <div>
+            {" "}
+            <span></span>
+            <p className="text-sm leading-relaxed">
+              Chembur add : At Occassion Cake Shop OPP Post office Chembur east
+              Nr Sandu Garden <br />
+              Mumbai -400071
             </p>
           </div>
         </div>
@@ -75,11 +94,7 @@ export default function Footer() {
           <p className="text-sm">
             <span className="font-bold">Mahim</span> <br />
             Mon-Sat: 1200 - 2400; <br />
-            Sunday: Closed <br />
-            <br />
-            <span className="font-bold">Kurla</span> <br />
-            Mon-Sat: 1100 - 2300; <br />
-            Sunday: Closed
+            Sunday: Open
           </p>
         </div>
 

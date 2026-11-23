@@ -40,7 +40,7 @@ app.use("/api/blogs", blogRoutes);
 app.use("/api/analytics", analyticRoute);
 app.use("/api", contactRoute);
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 5000;
 
 // sequelize
 //   .sync({ alter: true })
