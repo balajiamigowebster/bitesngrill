@@ -171,7 +171,7 @@ const Hero = () => {
               target="_blank"
             >
               <img
-                src="/menu/m1.jpg"
+                src="/menu/update-menu-1.jpeg"
                 alt="deals"
                 className="h-[400px] md:h-[350px] w-full md:w-[550px] "
               />
@@ -181,7 +181,7 @@ const Hero = () => {
               target="_blank"
             >
               <img
-                src="/menu/m2.jpg"
+                src="/menu/update-menu-2.jpeg"
                 alt="deals"
                 className="h-[400px] md:h-[350px] w-full md:w-[550px]"
               />
@@ -587,22 +587,26 @@ const Hero = () => {
             </p>
           </a>
 
-          {/* Kurla */}
+          {/* New Mumbai- Nr Airport */}
           <a
-            href="https://maps.app.goo.gl/Qe7dRBsyCmUoaEcR7"
+            href="https://maps.google.com/?q=KartraxOne+Mosare+Panvel"
             target="_blank"
+            rel="noopener noreferrer"
             className="border border-yellow-400 flex flex-col justify-center items-center p-6 rounded  shadow-2xl transition"
           >
-            <h3 className="text-3xl font-bold mb-3 text-center">Kurla</h3>
+            <h3 className="text-3xl font-bold mb-3 text-center">
+              New Mumbai- Nr Airport
+            </h3>
             <img
               src="/address/a1.png"
               alt="location"
               className="w-[70px] h-[70px] md:w-[80px] md:h-[80px]"
             />
             <p className="text-center text-[18px] py-5">
-              <span className="font-bold">Shop No: 25</span>, 3rd Floor, East
-              Point Mall, SG Barve Marg, opposite Kurla West Station Road,
-              Jagruti Nagar, East, Kurla, Mumbai, Maharashtra 400024
+              <span className="font-bold">Bites n Grill</span> <br />
+              inside Kartrax One, Nr Swami Samarth Math, <br />
+              Survey No: 93, H. No. 3/5, Panvel, Mosare, <br />
+              Nr Airport, New Mumbai- 410206
             </p>
           </a>
 
@@ -637,18 +641,25 @@ const Hero = () => {
 
           {/* Call */}
           <div
-            onClick={() => (window.location.href = "tel:+919504902902")}
             className="border border-yellow-400 flex flex-col justify-center items-center p-6 rounded shadow-2xl transition cursor-pointer"
           >
             <h3 className="text-3xl font-bold mb-3 text-center">Call Us</h3>
             <IoCallOutline size={120} className="py-5" />
 
-            <p className="text-center">
-              Mahim: <span className="text-[#CE1212]">+91 95049 02902</span>
+            <p className="text-center leading-relaxed">
+              Mahim:{" "}
+              <a className="text-[#CE1212] hover:underline" href="tel:+919504902902">
+                +91 95049 02902
+              </a>
               <br />
-              Kurla:{" "}
-              <a className="text-[#CE1212]" href="tel:+919987859229">
+              New Mumbai nr Airport:{" "}
+              <a className="text-[#CE1212] hover:underline" href="tel:+919987859229">
                 +91 99878 59229
+              </a>
+              <br />
+              Chembur:{" "}
+              <a className="text-[#CE1212] hover:underline" href="tel:+919136927424">
+                +91 91369 27424
               </a>
             </p>
           </div>

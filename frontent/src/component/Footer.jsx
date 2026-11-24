@@ -27,7 +27,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#F0BC04] text-black px-6 md:px-10  py-10">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8 max-w-7xl mx-auto">
-        {/* Address */}
+        {/* Address - 1 */}
         <div>
           <div className="font-bold text-lg mb-3 flex items-center gap-2">
             <span>
@@ -39,11 +39,12 @@ export default function Footer() {
             {" "}
             <span></span>
             <p className="text-sm leading-relaxed">
-              Shop No : 4, Karam Bhoomi Bldg, Mori Rd, Nr Mahim Bus Depot, Mahim
-              West- 400016 <br />
-              Shop No: 25, 3rd Floor, East Point Mall, SG Barve Marg, opposite
-              Kurla West Station Road, Jagruti Nagar, East, Kurla, Mumbai,
-              Maharashtra 400024
+              <span className="font-semibold">Mahim:</span> Shop No : 4, Karam
+              Bhoomi Bldg, Mori Rd, Nr Mahim Bus Depot, Mahim West- 400016 <br />
+              <br />
+              <span className="font-semibold">New Mumbai- Nr Airport:</span>{" "}
+              Bites n Grill inside Kartrax One, Nr Swami Samarth Math, Survey
+              No: 93, H. No. 3/5, Panvel, Mosare, Nr Airport, New Mumbai- 410206
             </p>
           </div>
         </div>
@@ -60,8 +61,8 @@ export default function Footer() {
             {" "}
             <span></span>
             <p className="text-sm leading-relaxed">
-              Chembur add : At Occassion Cake Shop OPP Post office Chembur east
-              Nr Sandu Garden <br />
+              <span className="font-semibold">Chembur:</span> At Occassion Cake
+              Shop OPP Post office Chembur east Nr Sandu Garden <br />
               Mumbai -400071
             </p>
           </div>
@@ -75,9 +76,11 @@ export default function Footer() {
             </span>{" "}
             Reservations
           </h3>
-          <p className="text-sm">
+          <p className="text-sm leading-relaxed">
             Mahim: <span className="text-red-600">+91 95049 02902</span> <br />
-            Kurla: <span className="text-red-600">+91 99878 59229</span> <br />
+            New Mumbai nr Airport:{" "}
+            <span className="text-red-600">+91 99878 59229</span> <br />
+            Chembur: <span className="text-red-600">+91 91369 27424</span> <br />
             <span className="font-bold text-md">Email:</span>{" "}
             bitesngrill@gmail.com
           </p>
@@ -89,12 +92,13 @@ export default function Footer() {
             <span>
               <MdAccessAlarms size={20} />
             </span>{" "}
-            Opening Hours
+            Opening Hour
           </h3>
-          <p className="text-sm">
-            <span className="font-bold">Mahim</span> <br />
-            Mon-Sat: 1200 - 2400; <br />
-            Sunday: Open
+          <p className="text-sm leading-relaxed">
+            <span className="font-semibold">Chembur:</span> 1200 - 2400 <br />
+            <span className="font-semibold">Mahim:</span> 1200 - 2400 <br />
+            <span className="font-semibold">New Mumbai- Nr Airport:</span> 1400
+            - 2200
           </p>
         </div>
 
