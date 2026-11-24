@@ -95,11 +95,14 @@ export default function Footer() {
             Opening Hour
           </h3>
           <p className="text-sm leading-relaxed">
+            <span className="inline-block bg-[#CE1212] text-white text-xs font-bold px-2.5 py-0.5 rounded-full mb-2 uppercase tracking-wide">
+              Every Day
+            </span>
+            <br />
             <span className="font-semibold">Chembur:</span> 1200 - 2400 <br />
             <span className="font-semibold">Mahim:</span> 1200 - 2400 <br />
             <span className="font-semibold">New Mumbai- Nr Airport:</span> 1400
-            - 2200 <br />
-            <span className="font-semibold">Every Day</span>
+            - 2200
           </p>
         </div>
 
