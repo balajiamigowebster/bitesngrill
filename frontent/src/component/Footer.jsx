@@ -98,7 +98,8 @@ export default function Footer() {
             <span className="font-semibold">Chembur:</span> 1200 - 2400 <br />
             <span className="font-semibold">Mahim:</span> 1200 - 2400 <br />
             <span className="font-semibold">New Mumbai- Nr Airport:</span> 1400
-            - 2200
+            - 2200 <br />
+            <span className="font-semibold">Every Day</span>
           </p>
         </div>
 
